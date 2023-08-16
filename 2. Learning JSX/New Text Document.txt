@@ -1,0 +1,27 @@
+Q1: Advantages of JSX
+What are the advantages of using JSX in a React app?
+Ans: Options
+This problem may have one or more correct answers
+It helps to couple rendering logic with the UI logic
+It separates concerns instead of separating technologies.
+It helps React to show more useful error and warning messages
+
+Q2: Embedding Javascript
+What is the correct syntax to embed JavaScript variable inside JSX?
+const firstName = 'John';
+const lastName = 'Doe';
+const fullName = `${firstName} ${lastName}`;
+
+const App = () => {
+  return (
+    <div>
+      <p>Welcome, {fullName}!</p>
+    </div>
+  );
+};
+Options
+This problem has only one correct answer
+
+Hurray! Correct Answer :B
+Solution Description
+We have to use curly brackets “{ }” to embed JavaScript inside JSX.
