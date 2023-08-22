@@ -25,3 +25,44 @@ This problem has only one correct answer
 Hurray! Correct Answer :B
 Solution Description
 We have to use curly brackets “{ }” to embed JavaScript inside JSX.
+
+Q3: Functions in JSX
+Send Feedback
+What is the correct syntax to embed JavaScript function calls inside JSX?
+ans:C Options
+This problem has only one correct answer
+C
+Hurray! Correct Answer
+Solution Description
+We need to call the function with parameter inside the JSX using { }.
+
+Q4: JSX Expressions
+Send Feedback
+Which of the following statements are NOT true about JSX?
+
+Options
+This problem has only one correct answer
+JSX can only have a single expression to render inside the UI
+JSX can have multiple expressions at once to render inside the UI (correct)
+JSX can be assigned to a variable and rendered inside the UI
+JSX can take any valid expression that resolves to a value
+Hurray! Correct Answer
+Solution Description
+JSX can only have a single expression to render inside of the UI. However, We can create a parent element or use React fragments to group the UI elements into a single expression.
+
+
+Q5: JSX Expressions - II
+Send Feedback
+Why does the following code snippet fail to render the JSX?
+
+Options
+This problem has only one correct answer
+Because JSX can only have a single element to render inside the UI
+Because of “implicit return” as parenthesis is missing(correct)
+Because we have to wrap the headings with a parent element
+None of the above
+Hurray! Correct Answer
+Solution Description
+The code does not render anything because of missing parenthesis around the JSX expression. It resolves to a null value because of the implicit return.
+
+Q6:- 
